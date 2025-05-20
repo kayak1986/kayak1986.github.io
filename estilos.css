@@ -1,0 +1,266 @@
+
+    
+body {
+  position: relative;
+  margin: 0;
+  background-color: rgb(23, 156, 83);
+}
+.sect {
+  width: 100%;
+  min-height: 500px;
+}
+#sect1,
+#sect3 {
+  background-color: #3333337d;
+  color: #fff;
+}
+#sect2 {
+  background-color: #dddddd7d;
+  color: #333;
+}
+
+video {
+  position: fixed;
+  top: 50;
+  left: 50;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translateX((-50%, - 50%) );
+  object-fit: cover;
+  
+}
+h1 {
+  margin: 0;
+  padding-top: 3rem;
+  padding-left: 2rem;
+
+  video {
+  position: center;
+  top: 50;
+  left: 50;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translateX((50%, - 50%) );
+  object-fit: cover;
+  
+}
+}
+h2 {
+  margin: 0;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+
+    header{
+
+        padding: 0 0 40px auto;
+    
+
+    }
+
+    #logo-header{
+        float: left;
+        text-decoration: none;
+    }
+
+    #site-name{
+        display: block;
+        float: right;
+    }
+
+
+    .nave{
+        list-style: none;
+        background-color:rgb(28, 224, 116);
+        padding: 0px;
+        width: 90%;
+        max-width: 1000px;
+        margin: center;
+    }
+
+    .nave li a{
+        color:rgb(6, 6, 6);
+        text-decoration:none;
+        padding: 12px;
+        display: block;
+    }
+
+    .nave li{
+     
+        display: inline-block;
+        justify-content: space-between;
+        text-align: ;
+        
+        
+    
+    }
+
+    .nave li a:hover{
+
+        background:rgb(249, 253, 255);
+    }
+
+    .container-boton{
+        background-color: #2e6329;
+        border: 1px solid #fff;
+        position: fixed;
+        z-index: 999;
+        border-radius: 50%;
+        bottom: 5px;
+        right: 5px;
+        padding: 5px;
+        transition: ease 0.3s;
+        animation: efecto 1.2s infinite;
+    }
+    
+    .container-boton:hover{
+        transform: scale(1.1);
+        transition: 0.3s;
+    }
+    
+    .boton{
+        width: 80px;
+        transition: ease 1s;
+    }
+    
+    @keyframes efecto{
+        0%{
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+        }
+        100%{
+            box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+        }
+    }
+
+
+   .container-logos{
+    display: block;
+    float: right;
+
+    }  
+
+    .title {
+        text-align: center;
+        display: inline;
+        margin: 0px auto;
+    }
+
+    .cubo{
+        width: 100px;
+        height: 100px;
+        background:url(img/burbujas-bajo-agua-66052.gif);
+        background-size: 100%;
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-end;
+    
+    }
+
+    .contenedor {
+  display: inline-block; /* Opcional, pero puede ser útil para centrar o controlar la posición horizontal */}
+
+    .video {
+  display: inline-block; /* Hace que los videos se muestren uno al lado del otro */
+  vertical-align: top; /* Para alinearlos en la parte superior */}
+
+
+
+    
+   
+
+    .Rental{
+        position:center;
+        display: flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        
+       
+    }
+
+ .title {
+
+   background-color: rgb(3, 156, 72);
+
+  }
+
+ .Form {
+      
+      background-color: rgb(28, 224, 116);
+
+      }
+
+.Contacto {
+
+         background-color: rgb(28, 224, 116);
+
+
+      }
+
+.padding {
+
+   background-color: rgb(28, 224, 116);
+
+
+
+   }
+
+.border
+
+   {
+
+     background-color: rgb(28, 224, 116);
+
+
+
+   }
+
+  .margin {
+   background-color: rgb(28, 224, 116);
+
+  }
+.section {
+
+
+
+
+ }
+
+ .p {
+  color: rgb(241, 241, 241);
+}
+
+.sect {
+  color: rgb(247, 247, 247)
+
+
+}
+
+.header{
+
+  color: rgb(23, 156, 83))
+
+}
+
+.title {
+
+   margin-bottom: 50px; /* Establece el margen inferior en 20 píxeles */
+}
+
+
+.sect2 {
+
+  box-shadow:#333
+  
+
+
+   }
+
+
+
